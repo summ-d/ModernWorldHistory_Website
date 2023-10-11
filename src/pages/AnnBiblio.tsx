@@ -1,24 +1,25 @@
-import * as util from './util';
-import './App.css';
-
+import * as util from './util'
 
 export default function AnnBiblio(){
-  return(
-    <Image name='/abbibliohdr.jpeg'>
-      <h1 id='anbiblohdrtxt'>Annotated Bibliography -- Mongol Empire</h1>
-    </Image>
-  )
-} 
+    return(
+        <div>
 
-export const BibOne = () => {
-  return(
-    <util.Collapsable name='Source #1'>
-      <div className='ctncld'>
-        <h4>
-          
-        </h4>
-      </div>
-    </util.Collapsable>
-  )
+        </div>
+    )
 }
 
+export const BibOne = () => {
+    return(
+        <div>
+            
+        </div>
+    )
+}
+
+export const BibTwo = () =>{
+    return(
+        <div>
+
+        </div>
+    )
+}
