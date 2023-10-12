@@ -38,6 +38,7 @@ export const BibOne = () => {
 export const BibTwo = () =>{
     return(
        <util.Collapsable name='Source #2'>
+        <div id ='ctn14'>
         <util.Member>
             <h4 className='hangInd'>
                     Juvaini, Malik. History of the World Conqueror. 1260. 
@@ -53,6 +54,7 @@ export const BibTwo = () =>{
                 nothing ever happened.
             </p>
         </util.Member>
+        </div>
        </util.Collapsable> 
     )
 }
@@ -60,6 +62,7 @@ export const BibTwo = () =>{
 export const BibThree = () =>{
     return(
         <util.Collapsable name='Source #3'>
+            <div id='ctn15'>
             <util.Member>
                 <h4 className='hangInd'>
                     Polo, Marco. Travels. Venice, Italy. 1291. 
@@ -75,13 +78,15 @@ export const BibThree = () =>{
                     the number of people in the households.
                 </p>
             </util.Member>
+            </div>
         </util.Collapsable>
     )
 }
 
 export const BibFour = () =>{
     return(
-        <util.Collapsable>
+        <util.Collapsable name='Source #4'>
+            <div id='ctn16'>
             <util.Member>
                 <h4 className='hangInd'>Onon, Urgunge. The Secret History of the Mongols: The Life and Times of Chinggis Khan. <br />
                     Translated, edited and with an introduction by Urgunge Onon. Richmond, Surrey: <br />
@@ -95,13 +100,15 @@ export const BibFour = () =>{
                     they'd excecute or enslave the soldiers of the territory.
                 </p>
             </util.Member>
+            </div>
         </util.Collapsable>
     )
 }
 
 export const BibFive = () =>{
     return(
-        <util.Collapsable>
+        <util.Collapsable name='Source #5'>
+            <div id='ctn17'>
             <util.Member>
                 <h4 className='hangInd'>
                     NMcCullough, David Willis, ed. Chronicles of the Barbarians: Firsthand Accounts of Pillage and Conquest<br/>
@@ -114,16 +121,67 @@ export const BibFive = () =>{
                     how they trained, used religion, and made the women do all of the jobs.
                 </p>
             </util.Member>
+            </div>
         </util.Collapsable>
     )
 }
 
 export const BibSix = () =>{
     return(
-        <util.Collapsable>
+        <util.Collapsable name='Source #6'>
+            <div id='ctn18'>
             <util.Member>
-                
+                <h4 className='hangInd'>
+                    Levi, Scott Cameron, and Ron Sela, eds. Islamic Central Asia: An Anthology of Historical Sources. Bloomington:<br/>
+                    Indiana University Press, 2010.
+                </h4>
             </util.Member>
+            <util.Member>
+                <p>
+                    This source tells the story of how the Mongol empire came to be. This tells us that there were seven seperate<br/>
+                    kingdoms that were around the same place, but then Ginggis Khan came in and unified the kingdoms. He believed<br/>
+                    that he was given a vision from God.
+                </p>
+            </util.Member>
+            </div>
         </util.Collapsable>
+    )
+}
+
+export const BibSev = () => {
+    return(
+        <util.Collapsable name='Source #7'>
+            <div id='ctn19'>
+                <util.Member>
+                    <h4 className='hangInd'>
+                        Levi, Scott Cameron, and Ron Sela, eds. Islamic Central Asia: An Anthology of Historical Sources. Bloomington:<br />
+                        Indiana University Press, 2010. 
+                    </h4>
+                </util.Member>
+                <util.Member>
+                    <p>
+                        This source tells us about the trade and diversity of the capital city of the Mongol Empire. The author tells us<br/>
+                        about the main road of the city, with all of its stalls and shops. He also talks about how diverse the capital<br/>
+                        was.
+                    </p>
+                </util.Member>
+            </div>
+        </util.Collapsable>
+    )
+}
+
+export const WholeSec = () =>{
+    return(
+        <div className='sections'>
+        <util.Collapsable name='Annotated Bibliography'>
+            <BibOne/>
+            <BibTwo />
+            <BibThree />
+            <BibFour />
+            <BibFive />
+            <BibSix />
+            <BibSev />
+        </util.Collapsable>
+        </div>
     )
 }
