@@ -75,3 +75,8 @@ h4{
 #ans{
   padding-bottom: 1000px;
 }
+
+.hangInd{
+  text-indent: -36px;
+  padding-left: 36px;
+}
