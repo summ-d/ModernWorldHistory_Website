@@ -78,3 +78,52 @@ export const BibThree = () =>{
         </util.Collapsable>
     )
 }
+
+export const BibFour = () =>{
+    return(
+        <util.Collapsable>
+            <util.Member>
+                <h4 className='hangInd'>Onon, Urgunge. The Secret History of the Mongols: The Life and Times of Chinggis Khan. <br />
+                    Translated, edited and with an introduction by Urgunge Onon. Richmond, Surrey: <br />
+                    Curzon, 2001.
+                </h4>
+            </util.Member>
+            <util.Member>
+                <p>
+                    This source explains the strategies behind the expansion of the Mongol Empire. <br />
+                    The author explains that they'd take over an area quicly without pillaging, then<br/>
+                    they'd excecute or enslave the soldiers of the territory.
+                </p>
+            </util.Member>
+        </util.Collapsable>
+    )
+}
+
+export const BibFive = () =>{
+    return(
+        <util.Collapsable>
+            <util.Member>
+                <h4 className='hangInd'>
+                    NMcCullough, David Willis, ed. Chronicles of the Barbarians: Firsthand Accounts of Pillage and Conquest<br/>
+                    from the Ancient World to the Fall of Constantinople. New York: Times Books, 1998.
+                </h4>
+            </util.Member>
+            <util.Member>
+                <p>
+                    This source discribes the daily life of the people living in the Mongol Empire. The author talks about <br />
+                    how they trained, used religion, and made the women do all of the jobs.
+                </p>
+            </util.Member>
+        </util.Collapsable>
+    )
+}
+
+export const BibSix = () =>{
+    return(
+        <util.Collapsable>
+            <util.Member>
+                
+            </util.Member>
+        </util.Collapsable>
+    )
+}
